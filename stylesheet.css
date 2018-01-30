@@ -17,7 +17,7 @@ text-align: left;
 	font-size: 30px;
 	padding: 20px;
 	color: white(!important);
-	margin-left: 100px;
+	margin-left: 90px;
 }
 .navbar-light .navbar-brand{
 	color: white;
@@ -31,12 +31,13 @@ text-align: left;
 
 .container{
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 100px;
+
 }
 
 h2{
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 30px;
 	color: #4aaaa5;
 	font-size: 30px;
 	font-style: bold;
@@ -44,15 +45,28 @@ h2{
 	margin-top: 10px;
 }
 
-/*.row{
-	background: #ffffff;
-	margin-top: 20px;
-	padding-left: 20px;
-	min-height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-}*/
+.col-lg-8 bg-white{
+	height: 500px;
+	margin-left: 20px;
+}
 
+.bg-white{
+    width:270px;
+    margin-top: 20px;  
+    overflow:auto;
+    background: #ffffff;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.image3{
+	float: left;
+	margin-left: 20px;
+}
 
 
 #footer{
@@ -70,3 +84,40 @@ h2{
 	margin-top: 100px;
 	
 }
+
+.column {
+    float: left;
+ 	margin-left: 0px;
+ }
+ 
+ .container1, .container2, .container3, .container4 {
+    height: 200px;
+  }
+
+ .text-block{
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 15px;
+    padding-right: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 170px; 
+    right: 30px;   
+}
+
+/*<!--media query-->*/
+
+@media screen and (max-width: 980px) {
+.row {
+	width: 100%;
+	}
+/*.bg-white{
+	width: 40%;
+	}
+}*/
+
